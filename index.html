@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>smallBIG | smallBIG Heroes: Zombie War</title>
+  <meta name="description" content="Zero Ads, Zero Gacha, Equal Stats. One-handed portrait tactical defense game by solo indie studio smallBIG." />
+  <style>
+    :root {
+      --bg: #0B1528;
+      --card: #0E1C36;
+      --gold: #FFC107;
+      --cyan: #00F0FF;
+      --cream: #FFF5CC;
+      --text: #E2E8F0;
+      --muted: #94A3B8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+    .container {
+      width: 100%;
+      max-width: 540px;
+      background: var(--card);
+      border: 1px solid rgba(0, 240, 255, 0.18);
+      border-radius: 16px;
+      padding: 36px 28px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--cyan);
+      border: 1px solid rgba(0, 240, 255, 0.35);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 1.75rem;
+      line-height: 1.25;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: var(--gold);
+      font-weight: 600;
+      font-size: 0.98rem;
+      margin-bottom: 20px;
+    }
+    .quote {
+      background: rgba(11, 21, 40, 0.65);
+      border-left: 3px solid var(--gold);
+      padding: 12px 16px;
+      color: var(--cream);
+      font-size: 0.92rem;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 22px;
+    }
+    ul.features {
+      list-style: none;
+      margin-bottom: 28px;
+      font-size: 0.94rem;
+    }
+    ul.features li {
+      margin-bottom: 8px;
+      padding-left: 18px;
+      position: relative;
+    }
+    ul.features li::before {
+      content: "•";
+      color: var(--cyan);
+      font-weight: bold;
+      position: absolute;
+      left: 2px;
+    }
+    .actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+    .btn {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 14px 18px;
+      border-radius: 10px;
+      transition: transform 0.12s ease, opacity 0.12s ease;
+    }
+    .btn:hover { opacity: 0.92; transform: translateY(-1px); }
+    .btn-primary {
+      background: var(--gold);
+      color: #0B1528;
+    }
+    .btn-secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid rgba(226, 232, 240, 0.25);
+      font-weight: 600;
+      font-size: 0.92rem;
+    }
+    footer {
+      border-top: 1px solid rgba(148, 163, 184, 0.15);
+      padding-top: 18px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    footer a {
+      color: var(--muted);
+      text-decoration: underline;
+    }
+    footer a:hover { color: var(--text); }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <span class="badge">SOLO INDIE STUDIO · smallBIG</span>
+    <h1>smallBIG Heroes: Zombie War</h1>
+    <p class="subtitle">Zero Ads · Zero Gacha · Equal Stats</p>
+
+    <div class="quote">
+      "Commander, start the jeep. Starting today, we are the heroes."<br />
+      <small>— Taegu, The First Survivor</small>
+    </div>
+
+    <ul class="features">
+      <li><strong>Zero Ads &amp; Zero Gacha:</strong> Pure one-handed portrait tactical defense across 200 campaign waves.</li>
+      <li><strong>Equal Stats (No P2W):</strong> Every unit awakens on its 3rd hit with fair, balanced stat budgets.</li>
+      <li><strong>0-Second Wait Arena:</strong> Scout 100 rival decks across 6 tiers and climb the ladder instantly.</li>
+      <li><strong>광고 0개 · 뽑기 0개 · 평등 스탯:</strong> 오직 전술과 손맛으로 승부하는 한 손 세로형 실시간 전략 디펜스.</li>
+    </ul>
+
+    <div class="actions">
+      <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.smallbig.heroes" target="_blank" rel="noopener">
+        Google Play Store
+      </a>
+      <a class="btn btn-secondary" href="https://www.youtube.com/@smallBIGHeroes" target="_blank" rel="noopener">
+        Official Gameplay Shorts (YouTube)
+      </a>
+    </div>
+
+    <footer>
+      <span>© 2026 smallBIG · <a href="mailto:smallbig.heroes@gmail.com">smallbig.heroes@gmail.com</a></span>
+      <a href="https://privacy.smallbig.me" target="_blank" rel="noopener">Privacy Policy</a>
+    </footer>
+  </main>
+</body>
+</html>
